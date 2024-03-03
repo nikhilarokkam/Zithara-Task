@@ -17,7 +17,6 @@ This project is a single-page application built with the PERN stack (PostgreSQL,
 - Express.js
 - React.js
 - Node.js
-- JavaScript
 
 ## Getting Started
 
