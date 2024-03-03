@@ -1,4 +1,4 @@
-# PERN Stack Customer Management Application
+# PERN Stack Customer Directory - Zithara Technologies Coding Assessment Round 2
 
 This project is a single-page application built with the PERN stack (PostgreSQL, Express.js, React.js, Node.js). It provides functionality for managing a list of customers, including viewing, searching, sorting, and paginating customer records.
 
@@ -67,3 +67,4 @@ This project is a single-page application built with the PERN stack (PostgreSQL,
 - Navigate between pages using the pagination controls.
 
 ### Screenshots
+![screencapture-localhost-3001-2024-03-03-12_01_16](https://github.com/nikhilarokkam/Zithara-Task/assets/115566678/eee514da-219e-414b-9a3d-3a44952c5a0a)
