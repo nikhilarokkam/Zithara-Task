@@ -70,6 +70,4 @@ This project is a single-page application built with the PERN stack (PostgreSQL,
 ![screencapture-localhost-3001-2024-03-03-19_26_53](https://github.com/nikhilarokkam/Zithara-Task/assets/115566678/671dfd31-46cb-4214-8728-8c606e10d268)
 
 ### Output Video
-
-https://github.com/nikhilarokkam/Zithara-Task/assets/115566678/03f134de-03cc-4f3d-a4ca-d05881678b0e
-
+https://github.com/nikhilarokkam/Zithara-Task/assets/115566678/ee1b7adb-8ca4-4815-996b-add534884964
