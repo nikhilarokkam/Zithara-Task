@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# PERN Stack Customer Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a single-page application built with the PERN stack (PostgreSQL, Express.js, React.js, Node.js). It provides functionality for managing a list of customers, including viewing, searching, sorting, and paginating customer records.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Display customer records in a table format
+- Search for customers by name or location
+- Sort customer records by date or time of creation
+- Paginate customer records with 20 records per page
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- PostgreSQL
+- Express.js
+- React.js
+- Node.js
+- JavaScript
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js installed on your machine
+- PostgreSQL database server
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/nikhilarokkam/Zithara-Task
+2. Navigate to the project directory
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   cd Zithara Task
 
-### `npm run eject`
+3. Install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm init -y
+   npm i --save express
+   npm i pg
+   npm i cors
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Set up the PostgreSQL database:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Create a database named Zithara-Task.
+- Execute the SQL script provided in database.sql to create the necessary table and insert dummy data.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Start the Node.js server
 
-## Learn More
+   ```bash
+   node server.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. Start the React development server
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm start
 
-### Code Splitting
+7. Open your browser and navigate to http://localhost:3001 to view the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Usage
 
-### Analyzing the Bundle Size
+- Use the search bar to search for customers by name or location.
+- Click on the column headers to sort the customer records by date or time.
+- Navigate between pages using the pagination controls.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Screenshots
