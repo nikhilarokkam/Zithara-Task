@@ -5,7 +5,6 @@ This project is a single-page application built with the PERN stack (PostgreSQL,
 ![screencapture-localhost-3001-2024-03-03-19_26_53](https://github.com/nikhilarokkam/Zithara-Task/assets/115566678/671dfd31-46cb-4214-8728-8c606e10d268)
 
 
-
 ## Features
 
 - Display customer records in a table format
