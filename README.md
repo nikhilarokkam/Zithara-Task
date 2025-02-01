@@ -6,7 +6,6 @@ This project is a single-page application built with the PERN stack (PostgreSQL,
 
 
 
-
 ## Features
 
 - Display customer records in a table format
